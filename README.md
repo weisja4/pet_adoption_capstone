@@ -90,13 +90,10 @@ Most of our models performed well in the range of 35%+ accuracy. We ultimately s
 We are able to conclude from our work that there are key factors that affect the speed at which dogs and cats are adopted. Those factors include age, spay/neuter status, breed and the number of photos available. Being able to more accurately predict the speed at which pets are adopted will allow us to better allocate resources to get the most pets into forever homes. 
 
 Other Recommendations:
-Include multiple pictures of the pet
-
-Even if the breed is unknown or mixed, it is best to take a guess and include a breed rather than ‘mixed’
-
-Spay/Neutering the pet helps in adoption, and helps keep the population down for the future
-
-Focusing on pets identified as being more difficult to home may increase their likelihood of finding a forever home. 
+- Include multiple pictures of the pet  
+- Even if the breed is unknown or mixed, it is best to take a guess and include a breed rather than ‘mixed’
+- Spay/Neutering the pet helps in adoption, and helps keep the population down for the future   
+- Focusing on pets identified as being more difficult to home may increase their likelihood of finding a forever home.   
 
 
 ## Resources
