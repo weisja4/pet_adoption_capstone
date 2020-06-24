@@ -68,19 +68,19 @@ Data Fields
 - __Color1:__ Color 1 of pet (Refer to ColorLabels dictionary) - Categorical
 - __Color2:__ Color 2 of pet (Refer to ColorLabels dictionary) - Categorical
 - __Color3:__ Color 3 of pet (Refer to ColorLabels dictionary) - Categorical
-- __MaturitySize:__ Size at maturity (1 = Small, 2 = Medium, 3 = Large, 4 = Extra Large, 0 = Unknown - Categorical
-__FurLength:__ Fur length (1 = Short, 2 = Medium, 3 = Long, 0 = Not Specified) - Categorical
-__Vaccinated:__ Pet has been vaccinated (1 = Yes, 2 = No, 3 = Not Sure) - Categorical
-__Dewormed:__ Pet has been dewormed (1 = Yes, 2 = No, 3 = Not Sure) - Categorical
-__Sterilized:__ Pet has been spayed / neutered (1 = Yes, 2 = No, 3 = Not Sure) - Categorical
-__Health:__ Health Condition (1 = Healthy, 2 = Minor Injury, 3 = Serious Injury, 0 = Not Specified) - Categorical
-__Quantity:__ Number of pets represented in profile - Numerical 
-__Fee:__ Adoption fee (0 = Free) - Numerical (Note: Malaysian Currency)
-__State:__ State location in Malaysia (Refer to StateLabels dictionary) - Dropped
-__RescuerID:__ Unique hash ID of rescuer - Dropped
-__VideoAmt:__ Total uploaded videos for this pet - Numerical
-__PhotoAmt:__ Total uploaded photos for this pet - Numerical
-__Description:__ Profile write-up for this pet. The primary language is English, with some in Malay or Chinese. - Dropped
+- __MaturitySize:__ Size at maturity (1 = Small, 2 = Medium, 3 = Large, 4 = Extra Large, 0 = Unknown - Categorical  
+- __FurLength:__ Fur length (1 = Short, 2 = Medium, 3 = Long, 0 = Not Specified) - Categorical    
+- __Vaccinated:__ Pet has been vaccinated (1 = Yes, 2 = No, 3 = Not Sure) - Categorical    
+- __Dewormed:__ Pet has been dewormed (1 = Yes, 2 = No, 3 = Not Sure) - Categorical  
+- __Sterilized:__ Pet has been spayed / neutered (1 = Yes, 2 = No, 3 = Not Sure) - Categorical  
+- __Health:__ Health Condition (1 = Healthy, 2 = Minor Injury, 3 = Serious Injury, 0 = Not Specified) - Categorical  
+- __Quantity:__ Number of pets represented in profile - Numerical   
+- __Fee:__ Adoption fee (0 = Free) - Numerical (Note: Malaysian Currency)  
+- __State:__ State location in Malaysia (Refer to StateLabels dictionary) - Dropped  
+- __RescuerID:__ Unique hash ID of rescuer - Dropped  
+- __VideoAmt:__ Total uploaded videos for this pet - Numerical  
+- __PhotoAmt:__ Total uploaded photos for this pet - Numerical  
+- __Description:__ Profile write-up for this pet. The primary language is English, with some in Malay or Chinese. - Dropped  
 
 
 
