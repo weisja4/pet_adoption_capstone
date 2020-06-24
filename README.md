@@ -33,7 +33,7 @@ After categorical modeling we did regression analysis to attempt to estimate the
 
 It is important to note that many of the categories that appear numerical are actually categorical, like breed and color. Those features were indluded using one-hot-encoding for modeling. 
 
-__Modeling and Analysis__
+__Modeling and Analysis__  
 We did our modeling from more simple to more complex utilizing the following models (in order we tested):
 K-Nearest Neighbors  
 Decision Tree   
