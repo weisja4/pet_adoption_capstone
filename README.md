@@ -48,13 +48,14 @@ https://www.kaggle.com/c/petfinder-adoption-prediction/data
 ![Data Dictionary](https://www.kaggle.com/c/petfinder-adoption-prediction/data "Title")
 Data Fields
 
-#### Target  
- AdoptionSpeed - Categorical speed of adoption. Lower is faster. TARGET.
-      >0: Adopted the day the pet was listed
-      >1: Adopted after the first day, but within the first week of listing
-      >2: Adopted after the first week, but within the first month of listing
-      >3: Adopted between 31-90 days after listing
-      >4: Adopted after 100 days, or never adopted    
+#### Target    
+ AdoptionSpeed - Categorical speed of adoption. Lower is faster. TARGET.  
+ 
+      0: Adopted the day the pet was listed  
+      1: Adopted after the first day, but within the first week of listing  
+      2: Adopted after the first week, but within the first month of listing  
+      3: Adopted between 31-90 days after listing  
+      4: Adopted after 100 days, or never adopted      
       
 #### Other Features
 - __PetID:__ - Unique hash ID of pet profile - Dropped
