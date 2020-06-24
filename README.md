@@ -20,8 +20,9 @@ By predicting the speed at which pets get adopted, we hope to gain insight into 
   
 
 ## Executive Summary
-_Abstract:__
-__Data Source:__ https://www.kaggle.com/c/petfinder-adoption-prediction/data
+
+__Data Source:__ https://www.kaggle.com/c/petfinder-adoption-prediction/data  
+
 We were fortunate to have an existing dataset from Kaggle that contains, along with other information, detailed listings on approximately 15,000 cats and dogs that were listed on the PetFinder website in Malaysia, including the speed category of their adoption. From the "Data Source" listed above we used the set labled 'Train' for our analysis. The initial data was read into the "Splitting Data" notebook and divided into a training and test set as well as a holdout set, which was segmented out of the data to be revisited later for validation. 
 
 Once we have our data read-in, we start with clean up and preliminary analysis. From the outset, we see the data is very clean, but has information we do not want to include, like resucer_id, state (in Malaysia) etc. that needed to be dropped. The largest change we made was to exclude listings of more than 3 pets as these were often entire litters of puppies/kittens rather than individual pets or bonded pairs/triples.
@@ -55,7 +56,7 @@ Data Fields
 3 – Adopted between 31-90 days after listing
 4 – Adopted after 100 days, or never adopted
 
-    Type - Type of animal (1 = Dog, 2 = Cat) - Categorical
+-Type - Type of animal (1 = Dog, 2 = Cat) - Categorical
     Name - Name of pet (Empty if not named) - Dropped
     Age - Age of pet when listed, in months
     Breed1 - Primary breed of pet (Refer to BreedLabels dictionary) - Categorical
