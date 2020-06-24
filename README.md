@@ -21,7 +21,7 @@ By predicting the speed at which pets get adopted, we hope to gain insight into 
 
 ## Executive Summary
 
-__Data Source:__ https://www.kaggle.com/c/petfinder-adoption-prediction/data  
+[__Data Source__](https://www.kaggle.com/c/petfinder-adoption-prediction/data)
 
 We were fortunate to have an existing dataset from Kaggle that contains, along with other information, detailed listings on approximately 15,000 cats and dogs that were listed on the PetFinder website in Malaysia, including the speed category of their adoption. From the "Data Source" listed above we used the set labled 'Train' for our analysis. The initial data was read into the "Splitting Data" notebook and divided into a training and test set as well as a holdout set, which was segmented out of the data to be revisited later for validation. 
 
@@ -46,7 +46,7 @@ Each model was tuned to get to the best estimations for adoption speed. We ultim
 ## Data Dictionary
 https://www.kaggle.com/c/petfinder-adoption-prediction/data
 ![Data Dictionary](https://www.kaggle.com/c/petfinder-adoption-prediction/data "Title")
-Data Fields
+
 
 #### Target    
  AdoptionSpeed - Categorical speed of adoption. Lower is faster. TARGET.  
